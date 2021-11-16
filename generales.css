@@ -1,0 +1,347 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#d12020 , #bb0d39);
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', 'sans-serif';
+    overflow-x: hidden;
+}
+
+/* cabecera comienza */ 
+
+header {
+    min-width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+nav {
+    height: 30px;
+    display: flex;
+}
+
+nav > div {
+    display: inline-block;
+    margin-right: 500px;
+    padding: 5px;
+}
+
+nav > ul {
+    padding: 5px;
+}
+
+nav > ul > li {
+    margin-right: 35px;
+    float: left;
+}
+
+.enlace {
+    color: #fff;
+    font-size: 16pt;
+}
+
+.brand {
+    font-weight: bolder;
+    font-size: 20pt;
+    color: #fff;
+
+}
+.brand:hover {
+    border-bottom: solid #000 3px;
+}
+
+.home {
+    font-weight: 600;
+
+}
+
+.enlace:hover {
+    border-bottom: #000 solid 3px;
+
+}
+
+.nombres {
+    display: block;
+}
+
+.apellido {
+    font-size: 140pt;
+    text-transform: uppercase;
+    color: #df2332;
+    text-shadow: 3px 2px 9px rgba(0,0,0,0.66);
+    position: relative;
+    z-index: 100;
+    user-select: none;
+    left: 0px;
+}
+
+.nombre {
+    color: #fff;
+    font-family: 'Ephesis', 'Birthstone', 'Festive';
+    font-size: 90px;
+    position: relative;
+    z-index: 200;
+    top: -170px;
+    left: 235px;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.bajo {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 90px;
+    top: -130px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 300;
+    color: #fff;
+}
+
+/* Primera caja */
+
+main {
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.contenedor2 {
+    box-shadow: 7px 9px 24px 2px rgba(0,0,0,0.82);
+}
+
+.arriba {
+    display: flex;
+    padding: 20px 30px ;
+    flex-direction: row;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.imagen-will {
+    padding: 50px;
+    border-radius: 2px;
+    box-shadow: 0px 11px 10px 0px rgba(0,0,0,0.36);
+    display: inline-block;
+    position: relative;
+    z-index: 700;
+    top: -100px;
+    background-color: #fff;
+    margin: 0 70px;
+}
+
+.will {
+    width: 350px;
+    position: relative;
+}
+
+/* .color {
+    background: #5edadc50;
+    width: 350px;
+    height: 467px;
+    position: absolute;
+    top: 70;
+    left: 50px;
+} */
+
+.contedido {
+    padding: 10px;
+}
+
+.sobre {
+    color: rgb(14, 195, 195);
+    font-family: 'Birthstone';
+    font-size: 35px;
+}
+
+.titulo {
+    color: #df2332;
+    font-family: 'Scheherazade New';
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+.peque {
+    text-align: left;
+    padding-right: 100px;
+    line-height: 1.5;
+    display: inline;
+}
+
+.boton {
+    padding: 20px 40px;
+    background: #1fc7b9;
+    border-radius: 2px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.firmas {
+    background: #eee;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(150px, auto);
+    padding: 25px;
+    align-items: center;
+    justify-items: center;
+    user-select: none;
+}
+
+.firma1 {
+    font-size: 60px;
+    font-family: 'Scheherazade New';
+    line-height: 1;
+    font-weight: 700;
+}
+
+.firma2 {
+    font-family: 'Festive';
+    font-size: 40px;
+}
+
+.firma3 {
+    font-family: 'Italianno';
+    font-size: 60px;
+}
+
+.section2 {
+    padding: 0 50px;
+}
+
+.sectionTitle {
+    color: rgb(253, 253, 208);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Scheherazade New';
+    font-weight: 300;
+    text-align: center;
+    user-select: none;
+}
+
+.imagen-contenedor2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(150px, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.contenedor3 {
+    display: inline;
+    box-sizing: border-box;
+    transition: .7s;
+    transition-delay: .3s;
+    position: relative;
+    top: 0; 
+    padding: 2px;
+}
+.contenedor3:hover {
+    box-shadow: 0px 9px 20px 5px #222222c7;
+    top: -10px;
+}
+
+.pinturas {
+    width: 375px;
+    height: 375px;
+    border-bottom: rgba(17, 17, 17, 0.733) solid .5px;
+}
+
+.contenido-imagen {
+    text-align:center;
+    padding: 20px 40px;
+    height: 150px;
+    font-size: 30px;
+    color: #d12020;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.contenido-peque {
+    color: #000;
+    letter-spacing: normal;
+    font-weight: 400;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+/* Carrucel */
+
+.contenedorCarrucel {
+    height: 500px;
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.itemCarrucel {
+    border: 1px solid #fff;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.targetaCarrucel {
+    height: 100%;
+}
+
+.flechasCarrucel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flechas {
+    color: #fff;
+    padding: 25px;
+    border: solid #fff 3px;
+    font-size: 20px;
+}   
+
+.targetaCarrucel1 {
+    background: #2d4;
+}
+
+.targetaCarrucel2 {
+    background: #d24;
+}
+
+.targetaCarrucel3 {
+    background: #24d;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

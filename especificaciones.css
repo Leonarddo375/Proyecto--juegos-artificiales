@@ -1,0 +1,12 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.nombresOpinion {
+    height: 230px;
+}
+
+.opinionPeque {
+    padding: 0;
+}
